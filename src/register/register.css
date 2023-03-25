@@ -1,0 +1,23 @@
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: palevioletred;
+}
+
+.form-data {
+    background-color: gray;
+    box-shadow: 3px 3px 4px black;
+}
+
+.form-data input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: aqua;
+    height: 20px;
+    /* height: 100vh; */
+}

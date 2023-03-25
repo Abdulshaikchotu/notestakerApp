@@ -1,0 +1,22 @@
+
+#addnotesform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+#addnotesform input{
+    width:500px
+}
+
+#addbtn{
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+    background-color: blue;
+    color:orangered;
+    border-radius:20px;
+    cursor: pointer;
+}
