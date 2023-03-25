@@ -81,8 +81,8 @@ const Home = () => {
                 }}
               >
                 <h3>date:{Date.now()}</h3>
-                <h1>{ele.title}</h1>
-                <p>{ele.description}</p>
+                <h1>Tile:{ele.title}</h1>
+                <p>Description:{ele.description}</p>
                 <button onClick={() => handledelete(ele._id)}>Delete</button>
                 <button onClick={() => handlededit(ele._id)}>Edit</button>
               </div>
